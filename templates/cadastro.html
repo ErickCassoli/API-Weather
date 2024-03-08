@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cadastro.css">
+    <title>Cadastro Meteorológico</title>
+</head>
+
+<body>
+
+  
+<div class="navbar">
+    <a href="./home.html"><button class="btn-home">Home</button></a>
+    <a href="./cadastroUser.html"><button class="btn-home">Cadastro de usuario</button></a>
+    <a href="./login.html"><button class="btn-logout">Logout</button></a>
+</div>
+
+    <div class="form-container">
+        <h1>Cadastro Meteorológico</h1>
+        <form action="#" method="post" class="weather-form">
+            <label for="location">Local:</label>
+            <input type="text" id="location" name="location" required>
+
+            <label for="temperature">Temperatura:</label>
+            <input type="text" id="temperature" name="temperature" required>
+
+            <label for="pressure">Pressão Atmosférica:</label>
+            <input type="text" id="pressure" name="pressure" required>
+
+            <label for="humidity">Umidade:</label>
+            <input type="text" id="humidity" name="humidity" required>
+
+            <label for="precipitation">Percentual de Precipitação:</label>
+            <input type="text" id="precipitation" name="precipitation" required>
+
+            <label for="condition">Condição Atual:</label>
+            <input type="text" id="condition" name="condition" required>
+
+            <label for="date">Data:</label>
+            <input type="date" id="date" name="date" required>
+
+            <button type="submit">Cadastrar</button>
+        </form>
+    </div>
+</body>
+
+</html>

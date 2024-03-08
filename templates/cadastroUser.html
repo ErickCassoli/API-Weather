@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cadastroUser.css">
+    <title>Cadastro de Usuário</title>
+</head>
+<body>
+    <div class="navbar">
+        <a href="./home.html"><button class="btn-home">Home</button></a>
+        <a href="./cadastro.html"><button class="btn-home">Cadastro</button></a>
+        <a href="./login.html"><button class="btn-logout">Logout</button></a>
+    </div>
+    <div class="form-container">
+        <h1>Cadastro de Usuário</h1>
+        <form action="#" method="post" class="user-registration-form">
+            <label for="username">Usuário:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="password">Senha:</label>
+            <input type="password" id="password" name="password" required>
+
+            <label for="confirmPassword">Confirme a Senha:</label>
+            <input type="password" id="confirmPassword" name="confirmPassword" required>
+
+            <button type="submit">Cadastrar</button>
+        </form>
+    </div>
+
+    <div class="navigation-buttons">
+        <button class="back-btn" onclick="window.history.back()">Voltar</button>
+    </div>
+</body>
+</html>
